@@ -1,0 +1,69 @@
+html ,body{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    width: 90%;
+    height: 30cm;
+    background: url(image/more.png) no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+.contaner{
+    width:1500px;
+    margin: 0 auto;
+
+}
+.manubar{
+    
+    width: 100%;
+    height: 4.85cm;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.manubar ul.menu{
+    list-style: none;
+    float: right;
+    margin: -100px -205px;
+    
+    
+}
+.manubar ul.menu li{
+    float: left;
+    margin-right: 100px;
+    
+}
+.manubar ul.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border: black solid 3px ; 
+    padding: 10px;
+    border-radius: 10px;
+}
+.manubar ul.menu li a:hover {
+    color: aqua;
+    border-radius: 10px;
+    border: aqua solid 3px ; 
+    transition:all 0.15s;
+}
+.down_area{
+    position: absolute;
+    bottom:40px;
+    left: 600px;;
+   }
+   .down_area a{
+      font-size: 100px;
+      color: black;
+      text-decoration: none;
+      border: rgb(27, 1, 1) solid 8px ; 
+      padding: 10px 30px;
+      border-radius: 30px;
+      background: #ffffff;
+   }
+   .down_area a:hover , a:active  {
+      color:rgb(0, 225, 255);
+      border:aqua inset 8px;
+      transition: all 0.15s;
+   }
